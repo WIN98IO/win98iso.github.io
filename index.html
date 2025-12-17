@@ -75,7 +75,7 @@
     /* Header zone */
     .hero{display:flex;gap:18px;align-items:center}
     .avatar{
-      width:118px;height:118px;border:2px solid var(--bevel-dark);background:<img src="avatar.jpg">;
+      width:118px;height:118px;border:2px solid var(--bevel-dark);background:linear-gradient(#fff,#e7e7e7);
       display:flex;align-items:center;justify-content:center;font-family:var(--monof);font-size:22px;color:var(--muted)
     }
     h1{margin:0;font-size:22px}
@@ -108,6 +108,12 @@
       .hero{flex-direction:column;align-items:flex-start}
       .grid-2{grid-template-columns:1fr}
     }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;      
+      border-radius: 2px;
 
   </style>
 </head>
@@ -144,7 +150,9 @@
     <main class="content">
       <div class="card">
         <div class="hero">
-          <div class="avatar">MB</div>
+          <div class="avatar">
+            <img src="avatar.jpg" alt="Photo de profil">
+          </div>
           <div>
             <h1>Maxime BRIAT</h1>
             <div class="meta">BTS SIO — option SISR · Étudiant · Présentation & portfolio</div>
@@ -159,7 +167,7 @@
         <div class="grid-2">
           <section id="profil">
             <h2>Profil</h2>
-            <p>Étudiante en <strong>BTS Services Informatiques aux Organisations (SIO)</strong>, option <strong>SISR</strong>. Passionnée par les réseaux, l'administration système, la virtualisation et l'univers de la sécurité. Je recherche mon prochain stage afin de développer mes compétences professionnelles.</p>
+            <p>Étudiante en <strong>BTS Services Informatiques aux Organisations (SIO)</strong>, option <strong>SISR</strong>. Diététicienne de formation, je souhaite élargir mes compétences à un nouveau domaine :  celui des réseaux, entre administration de système et leur sécurité. Je recherche mon prochain stage afin de développer mes compétences professionnelles.</p>
             <div style="margin-top:8px">
               <span class="tag">Motivée</span>
               <span class="tag">Curieuse</span>
@@ -223,6 +231,7 @@
   </div>
 </body>
 </html>
+
 
 
 
