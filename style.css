@@ -5,7 +5,7 @@ body {
 }
 
 .window {
-  width: 800px;
+  width: 600px;
   margin: 50px auto;
   background: #c0c0c0;
   border: 2px solid #000;
@@ -64,6 +64,7 @@ h2 {
 .btn.active:hover {
   background: #d0d0d0;
 }
+
 
 
 
