@@ -30,8 +30,8 @@ body {
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
   border: 2px solid #000;
   object-fit: cover;
   background: #c0c0c0;
@@ -64,6 +64,7 @@ h2 {
 .btn.active:hover {
   background: #d0d0d0;
 }
+
 
 
 
