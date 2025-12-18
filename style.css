@@ -31,13 +31,9 @@ body {
 .avatar {
   width: 64px;
   height: 64px;
-  background: #000080;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  font-weight: bold;
+  border: 2px solid #000;
+  object-fit: cover;
+  background: #c0c0c0;
 }
 
 h1 {
@@ -65,3 +61,4 @@ h2 {
 .btn.active:hover {
   background: #d0d0d0;
 }
+
